@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scuffed Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="aligner">
+
+        <h1>Scuffed Calculator :P</h1>
+        <h2>Please input values 1 and 2</h2>
+        <input type="text" class="inputNum" id="numberValue1">
+        <input type="text" class="inputNum" id="numberValue2">
+        <br>
+        <button type="button" id="addition" onclick="mainCalc('sum')">+</button>
+        <button type="button" id="subtraction" onclick="mainCalc('difference')">-</button>
+        <button type="button" id="multiply" onclick="mainCalc('product')">*</button>
+        <button type="button" id="divide" onclick="mainCalc('quotient')">/</button>
+        <button type="button" id="mod" onclick="mainCalc('mod')" >%</button>
+        <p id="results">Results will be displayed here!</p>
+        <div class="instructions" id="add">Click to add values 1 and 2</div>
+        <div class="instructions" id="subtract">Click to subtract values 1 and 2</div>
+        <div class="instructions" id="product">Click to multiply values 1 and 2</div>
+        <div class="instructions"id="quotient">Click to divide values 1 and 2</div>
+        <div class="instructions" id="modd">Click to find the modular of values 1 and 2</div>
+
+    </div>
+
+</body>
+
+</html>
